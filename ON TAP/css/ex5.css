@@ -1,0 +1,202 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background:url(../img/shophouse-tuan-chau-marina.jpg);
+    background-size:cover;  /*Thiết lập kích thước của hình nền : chiều rộng + cao của hình nền bằng với chiều rộng + cao của hình gốc*/
+    background-repeat:no-repeat;    /*Xác định hướng lặp của hình nền*/
+    background-position:center center; /*Thiết lập vị trí của hình hền, hình nền sẽ được canh giữa theo chiều ngang + dọc*/
+    height: 657px;
+    width: 100%;
+}
+.introduce{
+    font-size: 40px;
+    color: #02CE32;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px #f1f1f1;   /*Đổ bóng*/
+    padding-top: 5%;
+}
+.gift{
+    position: relative;
+    top: 19%;
+    margin:0 auto;
+    padding:20px;
+    width:60%;
+    /*background-color:#FFC21F;*/
+    background-color:rgba(255,194,31,0.8);  /*........*/
+    font-size:33px;
+    font-family:BebasNeueBold;
+    text-align:center;
+    border-radius:20px;
+}
+/*..........................*/
+.section1{
+    background:url(../img/money.jpg);
+    background-size:cover;  /*Thiết lập kích thước của hình nền : chiều rộng + cao của hình nền bằng với chiều rộng + cao của hình gốc*/
+    background-repeat:no-repeat;    /*Xác định hướng lặp của hình nền*/
+    background-position:center center; /*Thiết lập vị trí của hình hền, hình nền sẽ được canh giữa theo chiều ngang + dọc*/
+    height: 668px;
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 7%;
+}
+.content1{
+    padding:2%;
+    width:47%;
+    /*background-color:#FFC21F;*/
+    background-color:rgba(249,206,77,0.8);  /*........*/
+    border-radius:20px;
+}
+.policy{
+    margin-bottom:0;
+    line-height:25px;
+    color:#333;
+    font-family:notosansRegular;
+    font-weight:400;
+    font-size:14px;
+    line-height: 30px;
+}
+.policy ion-star:before {
+    content: "\f24e";
+    padding-right:10px;
+    font-family:FontAwesome;
+}
+/*..........................*/
+.section2{
+    background:url(../img/dac-diem-noi-bat.jpg);
+    background-size:cover;  /*Thiết lập kích thước của hình nền : chiều rộng + cao của hình nền bằng với chiều rộng + cao của hình gốc*/
+    background-repeat:no-repeat;    /*Xác định hướng lặp của hình nền*/
+    background-position:center center; /*Thiết lập vị trí của hình hền, hình nền sẽ được canh giữa theo chiều ngang + dọc*/
+    height: 658px;
+    width: 100%;
+}
+.content2{
+    width:400px;
+    height:658px;
+    background:linear-gradient(270deg,rgba(255,0,0,0),#1fad1f); /*........*/
+}
+.content2 h2{
+    font-size:45px;
+    color:#fff;
+    line-height:24px;
+    padding-left: 70px;
+    padding-top: 100px;
+}
+.content2 p{
+    font-size:17px;
+    color:#fff;
+    line-height:24px;
+    padding-left: 70px;
+    padding-top: 20px;
+    width: 330px;
+    text-align: justify;    /*canh đều các dòng*/
+}
+/*.......................*/
+.section3{
+    width: 100%;
+    height: 666px;
+    padding-top: 10%;
+    background:linear-gradient(90deg,hsla(0,0%,100%,0),#00bcd487 70%)   /*........*/
+}
+.content3{
+    text-align: center;
+}
+.content3 .nd p{
+    text-align: justify;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 19px;
+}
+/*....................*/
+.section4{
+    background:url(../img/tuan-chau-marina.jpg);
+    background-size:cover;  /*Thiết lập kích thước của hình nền : chiều rộng + cao của hình nền bằng với chiều rộng + cao của hình gốc*/
+    background-repeat:no-repeat;    /*Xác định hướng lặp của hình nền*/
+    background-position:center center; /*Thiết lập vị trí của hình hền, hình nền sẽ được canh giữa theo chiều ngang + dọc*/
+    height: 658px;
+    width: 100%;
+    padding-left: 60%;
+    padding-top: 8%;
+}
+.content4{
+    padding:1%;
+    width:70%;
+    background: rgba(31,173,33,0.8);  /*........*/
+    border-radius:20px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #f1f1f1;
+}
+.btn {
+    width: 70%;
+    height: 55px;
+    background: #f4ae2c;
+    border-radius: 10px;
+    border: none;margin-top: 3%;
+}
+.btn:hover{
+    background-color: #f9c422;
+    color: #ffffff;
+}
+/*.......................*/
+.section5{
+    background:#a3cdff url(../img/vi-tri.png);
+    background-size:cover;  /*Thiết lập kích thước của hình nền : chiều rộng + cao của hình nền bằng với chiều rộng + cao của hình gốc*/
+    background-repeat:no-repeat;    /*Xác định hướng lặp của hình nền*/
+    background-position:center center; /*Thiết lập vị trí của hình hền, hình nền sẽ được canh giữa theo chiều ngang + dọc*/
+    height: 658px;
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+.content5{
+    padding:1%;
+    width:40%;
+    background: rgba(24,156,46,.5);  /*........*/
+    text-align: justify;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #f1f1f1;
+}
+/*......................*/
+.section6{
+    background: url(../img/dac-diem-noi-bat-bg.jpg);
+    background-size:cover;  /*Thiết lập kích thước của hình nền : chiều rộng + cao của hình nền bằng với chiều rộng + cao của hình gốc*/
+    background-repeat:no-repeat;    /*Xác định hướng lặp của hình nền*/
+    background-position:center center; /*Thiết lập vị trí của hình hền, hình nền sẽ được canh giữa theo chiều ngang + dọc*/
+    height: 658px;
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 7%;
+}
+.content6-1{
+    background-color: rgba(31,173,33,0.8);
+    padding:2%;
+    width:40%;
+    color: #ffffff;
+    border-radius: 20px;
+    line-height: 25px;
+    width: 35%;
+    height: 40%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+.content6-2{
+    background-color: rgba(31,173,33,0.8);
+    padding:2%;
+    padding-left: 3.2%;
+    width:40%;
+    color: #ffffff;
+    border-radius: 20px;
+    line-height: 25px;
+    width: 35%;
+    height: 40%;
+    text-align: justify;
+}
